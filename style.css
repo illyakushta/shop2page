@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjg4MC1rdWwtMDktYS5qcGc.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+.a {
+    position: absolute;
+}
+
+.b {
+    margin: 30px;
+}
+
+.c {
+    background-color: yellow;
+    border: black solid 3px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    background-image: linear-gradient(135deg, yellow 50%, white);
+    text-align: center;
+}
+
+h3 {
+    margin: 5px;
+    text-align: center;
+}
+
+.c:hover {
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.e {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    border: black solid 3px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: yellow;
+    color: black;
+    border: black solid 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review {
+    margin: 20px;
+    border: black solid 5px;
+    padding: 5px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.review:hover {
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 0px;
+}
+
+.review-menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 10px;
+    border: black solid 3px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    background-image: linear-gradient(135deg, yellow 50%, white);
+    width: 100px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a:hover {
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 0px;
+    background-image: linear-gradient(135deg, lightgreen 60%, white);
+}
+
+.move {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.next {
+    opacity: 0.5;
+}
+
+@media(max-width: 450px){
+
+    .d {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .c {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .review-menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
